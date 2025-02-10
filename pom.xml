@@ -166,7 +166,7 @@
                             <target>
                                 <echo message="renaming sources file" />
                                 <copy file="${project.build.directory}/dependency/h2-mvstore-${core.artifact.version}-sources.jar"
-                                      tofile="${project.build.directory}/h2-mvstore-${core.artifact.version}-${core.artifact.release}-sources.jar" />
+                                      tofile="${project.build.directory}/h2-mvstore-${project.version}-sources.jar" />
                             </target>
                         </configuration>
                     </execution>
@@ -180,7 +180,7 @@
                             <target>
                                 <echo message="renaming javadoc file" />
                                 <copy file="${project.build.directory}/dependency/h2-mvstore-${core.artifact.version}-javadoc.jar"
-                                      tofile="${project.build.directory}/h2-mvstore-${core.artifact.version}-${core.artifact.release}-javadoc.jar" />
+                                      tofile="${project.build.directory}/h2-mvstore-${project.version}-javadoc.jar" />
                             </target>
                         </configuration>
                     </execution>
