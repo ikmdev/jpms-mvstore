@@ -23,7 +23,7 @@ Add the following dependency to your pom.xml:
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:h2.mvstore:${latest-jpms-mvstore-version}'
+implementation 'dev.ikm.jpms:mvstore:${latest-jpms-mvstore-version}'
 ```
 
 In your module descriptor (module-info.java), declare the dependency on the jpms-mvstore module:
