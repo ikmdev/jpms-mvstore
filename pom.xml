@@ -14,7 +14,7 @@
     <artifactId>mvstore</artifactId>
     <packaging>jar</packaging>
     <name>MVStore</name>
-    <version>2.5.252-r1</version>
+    <version>2.5.252-r2-SNAPSHOT</version>
 
     <properties>
         <!-- change release here-->
