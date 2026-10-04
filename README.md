@@ -9,7 +9,7 @@ The jpms-mvstore repository is dedicated to making the mvstore module compliant 
 ## Getting Started
 ### Prerequisites
 
-* **Java 11 or higher:** JPMS was introduced in Java 9, so a minimum of Java 11 is recommended for compatibility and support.
+* **Java 21 or higher:** the wrapped jar is flattened from H2's multi-release jar and includes the Java 21 variant of `org.h2.util.Utils21` in the base tree.
 * **Maven or Gradle:** For dependency management and building the project.
 
 Add the following dependency to your pom.xml:
